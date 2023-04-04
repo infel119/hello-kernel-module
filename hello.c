@@ -2,6 +2,7 @@
 #include <linux/module.h>
 MODULE_LICENSE("Dual MPL/GPL"); 
 
+
 static int hello_init(void)
 { 
   printk(KERN_ALERT "Hello, world\n"); 
